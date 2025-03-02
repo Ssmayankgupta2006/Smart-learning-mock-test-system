@@ -1,0 +1,180 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  user-select: none;
+}
+* {
+  font-family: "Inria Serif", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+@media screen and (max-width: 750px) {
+  .imgclass img {
+    height: 320px;
+    width: 100%;
+    border-radius: 6px;
+  }
+  .div_input {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    gap: 10px;
+  }
+  form div input[type="radio"] {
+    height: 20px;
+    width: 20px;
+  }
+  #submit_hai {
+    height: 40px;
+    width: 120px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin: 44px 0px 30px 0px;
+  }
+  .extrabox1 {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 60px;
+    height: 120px;
+    color: white;
+    padding: 6px;
+    overflow-y: hidden;
+  }
+  .questions {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    gap: 8px;
+    scrollbar-width: none;
+  }
+  .questions span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: blue;
+    border-radius: 50%;
+  }
+  .timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    text-wrap: wrap;
+  }
+}
+@media screen and (min-width: 750px) {
+  main {
+    display: grid;
+    grid-template-columns: 0.25fr 0.5fr 0.25fr;
+  }
+  .imgclass img {
+    height: 320px;
+    width: 100%;
+    border-radius: 6px;
+  }
+  .div_input {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    gap: 10px;
+  }
+  form div input[type="radio"] {
+    height: 20px;
+    width: 20px;
+  }
+  #submit_hai {
+    height: 40px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin: 44px 0px 30px 0px;
+  }
+  .extrabox1 {
+    position: sticky;
+    top: 0%;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    height: 100vh;
+    color: white;
+    padding: 6px;
+    overflow-y: hidden;
+  }
+  .timer {
+    padding: 10px;
+    color: black;
+    font-size: 30px;
+    background-color: blue;
+    width: calc(100% - 20px);
+  }
+  .questions {
+    margin-top: 10px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+  }
+  .questions span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: blue;
+  }
+}
+#fixed {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0%;
+  backdrop-filter: blur(4px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+#fixedspan {
+  height: 200px;
+  width: 200px;
+  border-radius: 50% 0% 50% 0%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  box-shadow: 1px 0px 326px black;
+  font-family: "Shrikhand", serif;
+  font-weight: 400;
+  font-style: normal;
+}

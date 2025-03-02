@@ -1,0 +1,122 @@
+* {
+  font-family: "Philosopher", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.offcanvas-header {
+  background-color: darkgray;
+}
+
+.box3 {
+  margin-top: 34px;
+}
+.main_box1 {
+  display: none;
+}
+.main_box1_2 {
+  display: none;
+}
+.main_box2 {
+  display: none;
+}
+.main_box3 {
+  display: none;
+}
+.main_box4 {
+  display: none;
+}
+.main_box5 {
+  display: none;
+}
+.main_box6 {
+  display: none;
+}
+.main_box2_1 {
+  display: none;
+}
+.main_box1 form {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 10px 10px 10px;
+}
+.main_box1_2 form {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 10px 10px 10px;
+}
+.main_box2 form {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.main_box2_1 form {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  gap: 10px;
+}
+.main_box3 form {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 10px 10px 10px;
+}
+.alert {
+  background-color: red;
+  color: white;
+  margin: 10px;
+}
+#selectforselecte {
+  width: 100%;
+  height: 44px;
+  border: 1px solid #ede2e2;
+  border-radius: 10px;
+}
+#selectforselecte option {
+  height: 50px;
+  font-size: 18px;
+}
+.containerhai {
+  background-color: blue;
+  color: white;
+  height: 60px;
+  text-align: center;
+}
+
+.styledetails {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: whitesmoke;
+  padding: 10px;
+}
+.generate_one {
+  margin: 10px;
+}
+.box5_container {
+  margin: 10px;
+  height: max-content;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.box5_span {
+  flex: 160px;
+  height: 140px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  gap: 4px;
+  padding: 8px;
+}
+.box5_span span:nth-child(1) {
+  display: flex;
+  justify-content: right;
+  align-items: flex-start;
+}
+.box5_span span input[type="radio"] {
+  height: 23px;
+  width: 30px;
+}

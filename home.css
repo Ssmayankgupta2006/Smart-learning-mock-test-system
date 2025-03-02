@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=Monomakh&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Monomakh&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Monomakh&family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sevillana&family=Yatra+One&display=swap");
+body {
+  margin: 0%;
+  padding: 0%;
+}
+.text-primary {
+  font-family: "Monomakh", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+}
+@media screen and (min-width: 900px) {
+  .navbar {
+    /* height: 100vh;
+        width: 100vw; */
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+  }
+  .navbar_box1,
+  .navbar_box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar_box1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .navbar_box2 img {
+    height: 90%;
+    width: 90%;
+  }
+  .navbar_span_box1 {
+    font-family: "Monomakh", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+  }
+  .navbar_span_box2 {
+    /* padding: 10px; */
+    text-align: center;
+    font-family: "Monomakh", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+}
+@media screen and (max-width: 900px) {
+  .navbar {
+    margin: 40px 0px 0px 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+  .navbar_box1,
+  .navbar_box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar_box1 {
+    font-family: "Monomakh", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+  }
+  .navbar_box2 img {
+    height: 90%;
+    width: 90%;
+  }
+  .navbar_span_box1 {
+    font-family: "Monomakh", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+  }
+  .navbar_span_box2 {
+    padding: 10px;
+    text-align: center;
+    font-family: "Monomakh", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .registration_form {
+    margin: 40px 0px 0px 0px;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-gap: 10px;
+  }
+  .registration_form_box1 {
+  }
+  .registration_form_box1 img {
+    height: 90%;
+    width: 90%;
+  }
+  .registration_form_box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .registration_form_box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  input {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  input[type="submit"]:hover {
+    transition: 1s background-color, 1s color;
+    background-color: blue;
+    color: white;
+  }
+  input[type="reset"]:hover {
+    transition: 1s background-color, 1s color;
+    background-color: red;
+    color: white;
+  }
+  .cap {
+    text-transform: capitalize;
+    color: blue;
+  }
+}
+@media screen and (max-width: 900px) {
+  .registration_form {
+    margin: 60px 0px 0px 0px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .registration_form_box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .registration_form_box1 img {
+    height: 90%;
+    width: 90%;
+  }
+  input {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  input[type="submit"]:hover {
+    transition: 1s background-color, 1s color;
+    background-color: blue;
+    color: white;
+  }
+  input[type="reset"]:hover {
+    transition: 1s background-color, 1s color;
+    background-color: red;
+    color: white;
+  }
+  .cap {
+    text-transform: capitalize;
+    color: blue;
+  }
+}
+.icon_for_more {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background-color: transparent;
+}
+.icon_for_more svg:hover {
+  transition: 1s scale;
+  scale: 1.1;
+}
+@media screen and (min-width: 900px) {
+  .login_form {
+    margin: 40px 0px 0px 0px;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-gap: 10px;
+  }
+  .login_form_box1 {
+    img {
+      height: 90%;
+      width: 90%;
+    }
+  }
+  .login_form_box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 900px) {
+  .login_form {
+    margin: 40px 0px 40px 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+  .login_form_box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+      height: 90%;
+      width: 90%;
+    }
+  }
+  .login_form_box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.detail_about_platform {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+  padding: 20px;
+  background-color: rgba(165, 42, 42, 0.877);
+  color: white;
+}
+
+.center {
+  margin: 80px 10px 10px 10px;
+  color: black;
+  padding: 10px;
+  font-size: 38px;
+  font-family: "Berkshire Swash", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.stars_by_performance {
+  margin: 40px 10px 10px 10px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  overflow-x: auto;
+  scrollbar-width: none;
+  grid-gap: 10px;
+  div {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    img {
+      height: 200px;
+      width: 200px;
+      border-radius: 3px;
+      /* border-radius: 50%;
+            filter: drop-shadow(1px 0px 10px black); */
+      /* box-shadow:; */
+    }
+    .stars_by_performance1_st_name {
+      font-family: "Merriweather", serif;
+      font-weight: 300;
+      font-style: normal;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+@media screen and (max-width: 900px) {
+  .div_for_options {
+    position: sticky;
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .div_for_options a {
+    padding: 6px;
+    /* color: white; */
+    text-decoration: none;
+    font-family: "Monomakh", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  .div_for_options a:hover {
+    transition: 1s scale;
+    scale: 1.1;
+  }
+}
+@media screen and (min-width: 900px) {
+  .div_for_options {
+    position: fixed;
+    top: 0px;
+    left: 60px;
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+  }
+  .div_for_options a {
+    padding: 6px;
+    color: black;
+    text-decoration: none;
+    font-family: "Monomakh", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  .div_for_options a:hover {
+    transition: 1s scale;
+    scale: 1.1;
+  }
+}

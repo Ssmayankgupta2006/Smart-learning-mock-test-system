@@ -1,0 +1,496 @@
+@media screen and (min-width: 0px) and (max-width: 650px) {
+  body {
+    margin: 0%;
+    padding: 0%;
+  }
+  main {
+    display: grid;
+    grid-template-rows: 0.1fr 0.45fr 0.5fr;
+    height: 100vh;
+    width: 100vw;
+    margin: 0%;
+    padding: 0%;
+  }
+  * {
+    font-family: "Beiruti", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .container_initial {
+    margin: 0%;
+    padding: 0%;
+  }
+  .container_initial1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container_initial1 img {
+    height: 260px;
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container_initial2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 0%;
+    height: 100%;
+  }
+  .container_initial2 form {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    gap: 10px;
+    height: 100%;
+    width: 100%;
+  }
+  .container_initial2 form span {
+    padding: 10px;
+    border-bottom: 1px solid rgb(226, 214, 214);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .container_initial2 form span div {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .container_initial2 form span input {
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    height: 35px;
+    background-color: transparent;
+  }
+  .container_initial2 form span select {
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    height: 35px;
+    background-color: transparent;
+    font-size: 18px;
+  }
+  ooption {
+    font-size: 18px;
+  }
+  #submit {
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  #submit input {
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .container_initial3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+  }
+  .container_initial3 span:nth-child(1) {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 10px;
+    height: 150px;
+    font-size: 18px;
+  }
+  #submithai {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  #submithai a {
+    padding: 10px;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    background-color: blue;
+    border-radius: 4px;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+.container_for_random {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0%;
+  margin: 0%;
+  color: white;
+  padding: 10px;
+  font-size: 24px;
+  animation: container_auto 1s 1 linear;
+}
+.colorB {
+  background: blue;
+}
+.colorR {
+  background: red;
+}
+@keyframes container_auto {
+  0% {
+    transform: translateY(-60px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@media screen and (min-width: 650px) and (max-width: 1000px) {
+  body {
+    margin: 0%;
+    padding: 0%;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 0.1fr 0.45fr 0.5fr;
+    height: 100vh;
+    width: 100vw;
+    margin: 0%;
+    padding: 0%;
+  }
+  * {
+    font-family: "Beiruti", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .container_initial {
+    /* width: 100%;
+    height: 100%; */
+    margin: 0%;
+    padding: 0%;
+  }
+  .container_initial1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container_initial1 img {
+    height: 260px;
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container_initial2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+  }
+  .container_initial2 form {
+    flex-direction: column;
+    /* padding: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    gap: 10px;
+    height: 100%;
+    width: 100%;
+  }
+  .container_initial2 form span {
+    /* width: 100%; */
+    padding: 10px;
+    border-bottom: 1px solid black;
+  }
+  .container_initial2 form span div {
+    width: 100%;
+    font-size: 18px;
+  }
+  .container_initial2 form span input {
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    height: 35px;
+    background-color: transparent;
+  }
+  .container_initial2 form span select {
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    height: 35px;
+    background-color: transparent;
+  }
+  #submit {
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  #submit input {
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .container_initial3 {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+  }
+  .container_initial3 span:nth-child(1) {
+    margin-top: 110px;
+    padding: 10px;
+    height: 150px;
+    font-size: 18px;
+    /* background-color: blue; */
+  }
+  #submithai {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  #submithai a {
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 18px;
+    background-color: blue;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  #submithaiwwww {
+    position: fixed;
+    top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: red;
+    height: 60px;
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #submitthaiwwww a div {
+    color: white;
+    padding: 10px;
+    font-size: 22px;
+  }
+  @keyframes findhai {
+    0% {
+      transform: translateY(-30px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    margin: 0%;
+    padding: 0%;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 0.3fr 0.35fr 0.34fr;
+    height: 100vh;
+    width: 100vw;
+    margin: 0%;
+    padding: 0%;
+  }
+  * {
+    font-family: "Beiruti", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .container_initial {
+    /* width: 100%;
+    height: 100%; */
+    margin: 0%;
+    padding: 0%;
+  }
+  .container_initial1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container_initial1 img {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container_initial2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+  }
+  .container_initial2 form {
+    flex-direction: column;
+    /* padding: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    gap: 10px;
+    height: 100%;
+    width: 100%;
+  }
+  .container_initial2 form span {
+    /* width: 100%; */
+    padding: 10px;
+    border-bottom: 1px solid black;
+    /* background-color: blue; */
+  }
+  .container_initial2 form span div {
+    width: 100%;
+    font-size: 18px;
+  }
+  .container_initial2 form span input {
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    height: 35px;
+    background-color: transparent;
+  }
+  .container_initial2 form span select {
+    width: 100%;
+    font-size: 16px;
+    border: none;
+    height: 35px;
+    background-color: transparent;
+  }
+  #submit {
+    background-color: blue;
+    border: 1px solid blue;
+    cursor: pointer;
+  }
+  #submit input {
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .container_initial3 {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+  }
+  .container_initial3 span:nth-child(1) {
+    margin-top: 110px;
+    padding: 10px;
+    height: 100px;
+    font-size: 18px;
+  }
+  #submithai {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  #submithai a {
+    /* padding: 10px; */
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    background-color: blue;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  #submithaiwwww {
+    position: fixed;
+    top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: red;
+    height: 60px;
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: findhai 1s;
+  }
+  #submitthaiwwww a div {
+    color: white;
+    padding: 10px;
+    font-size: 22px;
+  }
+
+  @keyframes findhai {
+    0% {
+      transform: translateY(-30px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+}
+#fixed {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0%;
+  backdrop-filter: blur(4px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+#fixedspan {
+  height: 200px;
+  width: 200px;
+  border-radius: 50% 0% 50% 0%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  box-shadow: 1px 0px 326px black;
+  font-family: "Shrikhand", serif;
+  font-weight: 400;
+  font-style: normal;
+}

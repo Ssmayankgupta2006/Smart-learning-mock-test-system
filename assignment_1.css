@@ -1,0 +1,44 @@
+div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+* {
+  font-family: "Baloo Paaji 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+div span {
+  margin: 0px;
+  flex: 300px;
+  padding: 8px;
+}
+#special {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  background-color: white;
+  flex-direction: column;
+}
+#special strong {
+  color: red;
+  font-size: 18px;
+}
+a {
+  width: 150px;
+  height: 40px;
+  background-color: red;
+  border-radius: 4px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#button {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+}
